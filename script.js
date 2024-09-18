@@ -12,7 +12,7 @@ class Rectangle {
 		return this._height;
 	}
 
-	get Area(){
+	getArea(){
 		return this._width * this._height;
 	}
 }
@@ -22,7 +22,7 @@ class Square extends Rectangle {
 		super(side,side);
 	}
 
-	get Perimeter(){
+	getPerimeter(){
 		return 4 * this._width;
 	}
 }
